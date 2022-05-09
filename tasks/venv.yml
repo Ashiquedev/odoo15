@@ -20,5 +20,5 @@
     chdir: /opt/odoo15
     virtualenv: "{{ virtualenv_path }}"
     virtualenv_python: python3
-    requirements: "{{ requirements.txt_path }}"
+    requirements: "{{ requirementstxt_path }}"
     state: present
